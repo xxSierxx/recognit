@@ -1,0 +1,8 @@
+prefix=/home/stud/stud033_ws/devel
+
+Name: planning
+Description: Description of planning
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
