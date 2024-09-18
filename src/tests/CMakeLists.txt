@@ -9,10 +9,10 @@ project(tests)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
     roscpp rospy std_msgs
+    pcl_conversions
     )
 
-find_package( OpenCV REQUIRED )
-find_package (PCL 1.7 REQUIRED COMPONENTS
+find_package (PCL 1.8 REQUIRED COMPONENTS
     common
     features
     filters

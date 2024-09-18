@@ -25,7 +25,8 @@ find_package (PCL 1.7 REQUIRED COMPONENTS
     segmentation
     search
     visualization
-    sample_consensus)
+    sample_consensus
+    recognition)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)

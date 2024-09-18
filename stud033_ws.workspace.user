@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.9.2, 2024-05-30T16:39:34. -->
+<!-- Written by QtCreator 4.9.2, 2024-09-10T20:38:37. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -119,7 +119,7 @@
      <value type="QString">ROS_PYTHON_VERSION=2</value>
      <value type="QString">ROS_ROOT=/opt/ros/melodic/share/ros</value>
      <value type="QString">ROS_VERSION=1</value>
-     <value type="QString">SHLVL=986</value>
+     <value type="QString">SHLVL=248</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
@@ -486,8 +486,8 @@
       <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">true</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">imread</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/imread</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">imread_node</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/stud/stud033_ws/devel/lib/imread/imread_node</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath"></value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.10">
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
@@ -506,14 +506,14 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunStep</value>
-      <value type="bool" key="ProjectExplorer.RunStep.Enabled">false</value>
+      <value type="bool" key="ProjectExplorer.RunStep.Enabled">true</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
-      <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">true</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">results_work</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/results_work</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target"></value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath"></value>
+      <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">pub_point_cloud</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/pub_point_cloud</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">pub_point_cloud_node</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/stud/stud033_ws/devel/lib/pub_point_cloud/pub_point_cloud_node</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.12">
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
@@ -522,11 +522,37 @@
       <value type="bool" key="ProjectExplorer.RunStep.Enabled">false</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
+      <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">true</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">method_group</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/method_group</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">method_group_node</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/stud/stud033_ws/devel/lib/method_group/method_group_node</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.13">
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunStep</value>
+      <value type="bool" key="ProjectExplorer.RunStep.Enabled">true</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
       <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">pub_point_cloud</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/pub_point_cloud</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">pub_point_cloud_node</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/stud/stud033_ws/devel/lib/pub_point_cloud/pub_point_cloud_node</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">results_work</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/results_work</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">results_work_node</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/stud/stud033_ws/devel/lib/results_work/results_work_node</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.14">
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunStep</value>
+      <value type="bool" key="ProjectExplorer.RunStep.Enabled">false</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
+      <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">template_model</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/template_model</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">template_model_node</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/stud/stud033_ws/devel/lib/template_model/template_model_node</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.2">
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
@@ -629,10 +655,10 @@
       <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">object_detection</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.PackagePath">/home/stud/stud033_ws/src/object_detection</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">object_detection_node</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/stud/stud033_ws/devel/lib/object_detection/object_detection_node</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath"></value>
      </valuemap>
-     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">13</value>
+     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">15</value>
     </valuemap>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>

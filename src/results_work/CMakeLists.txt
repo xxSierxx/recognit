@@ -8,7 +8,7 @@ project(results_work)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-    roscpp rospy std_msgs
+    roscpp rospy std_msgs visualization_msgs
     )
 
 #find_package(PCL 1.8 REQUIRED)
@@ -25,7 +25,10 @@ find_package (PCL 1.8 REQUIRED COMPONENTS
     segmentation
     search
     visualization
-    sample_consensus)
+    sample_consensus
+    recognition
+    )
+
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -168,6 +171,21 @@ target_link_libraries(${PROJECT_NAME}_node
     ${catkin_LIBRARIES}
     ${PCL_LIBRARIES}
     )
+
+#target_link_libraries(${PROJECT_NAME}_node
+#  ${catkin_LIBRARIES}
+#  ${PCL_COMMON_LIBRARIES}
+#  ${PCL_IO_LIBRARIES}
+#  ${PCL_REGISTRATION_LIBRARIES}
+#  ${PCL_RECOGNITION_LIBRARIES}
+#  ${PCL_SEGMENTATION_LIBRARIES}
+#  ${PCL_SAMPLE_CONSENSUS_LIBRARIES}
+#  ${PCL_KDTREE_LIBRARIES}
+#  ${PCL_FEATURES_LIBRARIES}
+#  ${PCL_SURFACE_LIBRARIES}
+#  ${PCL_KEYPOINTS_LIBRARIES}
+#  ${PCL_FILTERS_LIBRARIES}
+#)
 
 #############
 ## Install ##

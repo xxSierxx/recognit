@@ -186,7 +186,7 @@ int main(int argc, char **argv){
 
 
   //Загрузка изображений из файлов
-  for(int num = 0; num < 100; num+=2) {
+  for(int num = 0; num < 10; num++) {
     std::string path_img = "/home/stud/Desktop/bedroom/image/";
     for(int d = 0; d < 6 - std::to_string(num).size(); d++) {
       path_img += "0";

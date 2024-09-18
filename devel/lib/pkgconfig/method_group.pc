@@ -1,0 +1,8 @@
+prefix=/home/stud/stud033_ws/devel
+
+Name: method_group
+Description: Description of method_group
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
